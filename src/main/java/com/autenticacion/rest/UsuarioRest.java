@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.autenticacion.config.AutenticacionResp;
 import com.autenticacion.config.JwtUtil;
 import com.autenticacion.config.MyUserDetailsService;
+import com.autenticacion.model.Usuario;
 
 
 

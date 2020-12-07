@@ -1,8 +1,4 @@
-package com.autenticacion.rest;
-
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+package com.autenticacion.model;
 
 public class Usuario {
 
@@ -25,8 +21,7 @@ public class Usuario {
         this.password = password;
     }
 
-    //need default constructor for JSON Parsing
-    public Usuario()
+     public Usuario()
     {
 
     }

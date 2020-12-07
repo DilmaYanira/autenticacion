@@ -1,4 +1,4 @@
-package com.autenticacion.rest;
+package com.autenticacion.config;
 
 import java.io.Serializable;
 

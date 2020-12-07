@@ -18,8 +18,18 @@ public class TarjetaCredito {
 	private String tipo;
 	private Date fechaInicioVigencia;
 	private Date fechaFinVigencia;
+	@ManyToOne
+	private Cliente cliente;
 	
 	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -50,7 +60,13 @@ public class TarjetaCredito {
 	public void setFechaFinVigencia(Date fechaFinVigencia) {
 		this.fechaFinVigencia = fechaFinVigencia;
 	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	
+	}
 	
 	
 	

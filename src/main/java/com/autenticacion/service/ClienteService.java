@@ -25,4 +25,9 @@ public class ClienteService {
 	public List<Cliente> listar(){
 		return clienteDao.findAll();
 	}
+	
+	public void editar(Cliente cliente) {
+		clienteDao.save(cliente);
+	}
+	
 }
